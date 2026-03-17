@@ -102,11 +102,11 @@ const ContactSection = () => {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Headquarters</div>
+                      <div className="text-white font-medium">R&D Office</div>
                       <div className="text-sm text-white/60">
                         100 6 Ave SW
                         <br />
-                        , Calgary, AB T2P 0P5, Canada
+                        Calgary, AB T2P 0P5, Canada
                       </div>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ const ContactSection = () => {
                       <Globe className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Global Offices</div>
+                      <div className="text-white font-medium">Golbal R&D Offices</div>
                       <div className="text-sm text-white/60">
                         Calgary | London | Dresden | Prague | Bogota | Boston
                       </div>
