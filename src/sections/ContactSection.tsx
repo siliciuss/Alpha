@@ -102,11 +102,11 @@ const ContactSection = () => {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">R&D Office</div>
+                      <div className="text-white font-medium">Calgary R&D Hub</div>
                       <div className="text-sm text-white/60">
-                        100 6 Ave SW
+                        + Remote R&D Hub
                         <br />
-                        Calgary, AB T2P 0P5, Canada
+                        + Updating
                       </div>
                     </div>
                   </div>
@@ -116,7 +116,7 @@ const ContactSection = () => {
                       <Phone className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Phone</div>
+                      <div className="text-white font-medium">Virtual Hub Connection</div>
                       <div className="text-sm text-white/60">+ Updating</div>
                     </div>
                   </div>
@@ -126,8 +126,8 @@ const ContactSection = () => {
                       <Mail className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Email</div>
-                      <div className="text-sm text-white/60">Updating</div>
+                      <div className="text-white font-medium">R&D Hub e-mail</div>
+                      <div className="text-sm text-white/60">+ Updating</div>
                     </div>
                   </div>
 
@@ -136,9 +136,9 @@ const ContactSection = () => {
                       <Globe className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Golbal R&D Offices</div>
+                      <div className="text-white font-medium">Golbal R&D Hubs</div>
                       <div className="text-sm text-white/60">
-                        Calgary | London | Dresden | Prague | Bogota | Boston
+                        | London | Dresden | Prague | Bogota | Boston | Seoul | Beijing |
                       </div>
                     </div>
                   </div>
