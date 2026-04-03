@@ -46,7 +46,7 @@ const industryData = [
   },
   {
     id: 'oilgas',
-    name: 'Oil & Gas',
+    name: 'Oil & Gas & Energy',
     icon: Flame,
     color: '#f5a50d',
     gradient: 'from-orange-500 to-amber-600',
