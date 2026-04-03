@@ -11,7 +11,7 @@ const footerLinks = {
   industries: [
     { label: 'Electric Vehicles', href: '#' },
     { label: 'Robotics & Automation', href: '#' },
-    { label: 'Oil & Gas', href: '#' },
+    { label: 'Oil & Gas & Energy', href: '#' },
     { label: 'Aerospace', href: '#' },
   ],
   company: [
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
                 <p className="text-sm text-white/60">
                   AI-powered digital twins and additive manufacturing for Electric Vehicles,
-                  Robotics, and Oil & Gas industries.
+                  Robotics, Oil & Gas & Energy industries.
                 </p>
               </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-1 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30">
                   <Flame className="w-3 h-3 text-amber-400" />
-                  <span className="text-xs text-amber-400">Oil & Gas</span>
+                  <span className="text-xs text-amber-400">Oil & Gas & Energy</span>
                 </div>
               </div>
 
