@@ -85,7 +85,7 @@ const ContactSection = () => {
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
               Ready to revolutionize your manufacturing process? Let's discuss how our
-              digital twin and additive manufacturing solutions can help.
+              R&D Intelligent Ecosystems on additive manufacturing solutions can help.
             </p>
           </div>
 
@@ -136,7 +136,7 @@ const ContactSection = () => {
                       <Globe className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Golbal R&D Hubs</div>
+                      <div className="text-white font-medium">Golbal R&D Intelligent Hubs</div>
                       <div className="text-sm text-white/60">
                         | London | Dresden | Prague | Bogota | Boston | Seoul | Beijing |
                       </div>
