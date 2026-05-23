@@ -125,7 +125,7 @@ const TechnologySection = () => {
               Integrated <span className="text-gradient">Platform</span>
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
-              A comprehensive technology stack that seamlessly connects digital twins,
+              A comprehensive technology stack that seamlessly connects R&D Intelligent Ecosystems,
               AI analytics, and additive manufacturing.
             </p>
           </div>
