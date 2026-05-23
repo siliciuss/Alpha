@@ -224,14 +224,14 @@ const Hero = () => {
 
           {/* Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight">
-            Digital Twin
+            R&D Intelligent Ecosystems
             <br />
             <span className="text-gradient">Additive Manufacturing</span>
           </h1>
 
           <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
             Powering the future of Electric Vehicles, Robotics, and Oil & Gas with
-            intelligent digital twins and on-demand additive manufacturing.
+            R&D Intelligent Ecosystems and on-demand additive manufacturing.
           </p>
 
           {/* CTAs */}
