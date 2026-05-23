@@ -121,7 +121,7 @@ const IndustriesSection = () => {
               <span className="text-gradient">Industries</span>
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
-              Tailored digital twin and additive manufacturing solutions designed
+              Tailored R&D Intelligent Ecosystems on additive manufacturing solutions designed
               for the unique challenges of each sector.
             </p>
           </div>
