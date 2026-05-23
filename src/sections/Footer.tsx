@@ -61,7 +61,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <p className="text-sm text-white/60">
-                  AI-powered digital twins and additive manufacturing for Electric Vehicles,
+                  AI-powered R&D ecosystems on additive manufacturing for Electric Vehicles,
                   Robotics, Oil & Gas & Energy industries.
                 </p>
               </div>
