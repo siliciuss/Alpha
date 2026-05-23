@@ -244,7 +244,7 @@ const StatsSection = () => {
           {/* Quote */}
           <div className="mt-16 text-center">
             <blockquote className="text-xl text-white/70 italic max-w-3xl mx-auto">
-              "The global digital twin market in automotive is predicted to reach{' '}
+              "The global R&D Intelligent Ecosystems market in automotive is predicted to reach{' '}
               <span className="text-primary font-bold">$73.5 billion by 2027</span>,
               with additive manufacturing playing a critical role in production optimization."
             </blockquote>
