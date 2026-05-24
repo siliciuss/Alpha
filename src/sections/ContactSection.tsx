@@ -85,7 +85,7 @@ const ContactSection = () => {
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
               Ready to revolutionize your manufacturing process? Let's discuss how our
-              R&D Intelligent Ecosystems on additive manufacturing solutions can help.
+              R&D Intelligent Ecosystems with additive manufacturing solutions can help.
             </p>
           </div>
 
