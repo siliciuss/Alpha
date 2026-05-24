@@ -218,7 +218,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full mb-8 pointer-events-auto">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
             <span className="text-primary text-sm font-medium tracking-wider uppercase">
-              Augmenting Human Intellect as a Service
+              "People are Rational, Computers can Mimic them"
             </span>
           </div>
 
@@ -226,12 +226,12 @@ const Hero = () => {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight">
             Augmenting Human Intellect Ecosystems
             <br />
-            <span className="text-gradient">Co-Evolution of Human Systems & Tool Systems</span>
+            <span className="text-gradient">Manufacturing as a Service</span>
           </h1>
 
           <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
             Powering the future of Electric Vehicles, Robotics, and Oil & Gas with
-            R&D Intelligent Ecosystems and on-demand additive manufacturing.
+            Co-Evolution of Human Systems & Tool Systems.
           </p>
 
           {/* CTAs */}
