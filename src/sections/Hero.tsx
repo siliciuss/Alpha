@@ -218,20 +218,20 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full mb-8 pointer-events-auto">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
             <span className="text-primary text-sm font-medium tracking-wider uppercase">
-              "People are Rational, Computers can Mimic them"
+            "People are Rational, Computers can Mimic them"
             </span>
           </div>
 
           {/* Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight">
-            Augmenting Human Intellect Ecosystems
+            Manufacturing as a Service
             <br />
             <br />
-            <span className="text-gradient">Manufacturing as a Service</span>
+            <span className="text-gradient">Augmenting Human Intellect Ecosystems</span>
           </h1>
 
           <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
-            Powering the future of Electric Vehicles, Robotics, and Oil & Gas with
+            Powering the future of Electric Vehicles, Robotics, and Oil & Gas Industries with
             Co-Evolution of Human Systems & Tool Systems.
           </p>
 
