@@ -218,15 +218,15 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full mb-8 pointer-events-auto">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
             <span className="text-primary text-sm font-medium tracking-wider uppercase">
-              AI as a Service
+              Augmenting Human Intellect as a Service
             </span>
           </div>
 
           {/* Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight">
-            R&D Intelligent Ecosystems
+            Augmenting Human Intellect Ecosystems
             <br />
-            <span className="text-gradient">Additive Manufacturing</span>
+            <span className="text-gradient">Co-Evolution of Human Systems & Tool Systems</span>
           </h1>
 
           <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
