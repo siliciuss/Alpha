@@ -226,6 +226,7 @@ const Hero = () => {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight">
             Augmenting Human Intellect Ecosystems
             <br />
+            <br />
             <span className="text-gradient">Manufacturing as a Service</span>
           </h1>
 
