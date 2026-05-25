@@ -61,8 +61,8 @@ const Footer = () => {
                   </div>
                 </div>
                 <p className="text-sm text-white/60">
-                  AI-powered R&D Intelligent Ecosystems with additive manufacturing for Electric Vehicles,
-                  Robotics, Oil & Gas & Energy industries. 
+                  Augmenting Human Intellect Ecosystems powered the future of Electric Vehicles, Robotics, and Oil & Gas Industries with
+                  Co-Evolution of Human Systems & Tool Systems.
                 </p>
               </div>
 
