@@ -220,6 +220,8 @@ const Hero = () => {
             <span className="text-primary text-sm font-medium tracking-wider uppercase">
             People are Rational, Computers can Mimic them
             </span>
+            <br />
+            <br />
           </div>
 
           {/* Heading */}
