@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Send, MapPin, Phone, Mail, Globe, CheckCircle, Zap, Cpu, Flame, Loader2 } from 'lucide-react';
+import { Send, MapPin, Phone, Mail, Globe, CheckCircle, Zap, Cpu, Flame } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,66 +11,17 @@ const industries = [
   { id: 'oilgas', label: 'Oil & Gas', icon: Flame },
 ];
 
-export const ContactSection = () => {
+const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
-  
-  // 1. Form States
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [focusedField, setFocusedField] = useState<string | null>(null);
   const [selectedIndustry, setSelectedIndustry] = useState('');
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    company: '',
-    message: ''
-  });
 
-  // 2. Track text input changes
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  // 3. Handle Email Submission
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsLoading(true);
-    setErrorMessage(null);
-
-    const fullPayload = {
-      ...formData,
-      industry: selectedIndustry
-    };
-
-    try {
-      // OPTION A: If sending to your own Next.js / server API route
-      /*
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(fullPayload),
-      });
-
-      if (!response.ok) throw new Error('Something went wrong. Please try again.');
-      */
-
-      // OPTION B: Simple simulation / Formspree webhook / EmailJS snippet (See explanation below)
-      await new Promise((resolve) => setTimeout(resolve, 1500)); // Simulating API call
-
-      // On Success:
-      setIsSubmitted(true);
-      setFormData({ firstName: '', lastName: '', email: '', company: '' });
-      setSelectedIndustry('');
-      
-    } catch (error: any) {
-      setErrorMessage(error.message || 'Failed to send message.');
-    } finally {
-      setIsLoading(false);
-    }
+    setIsSubmitted(true);
+    setTimeout(() => setIsSubmitted(false), 3000);
   };
 
   useEffect(() => {
@@ -185,7 +136,7 @@ export const ContactSection = () => {
                       <Globe className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Global R&D Intelligent Hubs</div>
+                      <div className="text-white font-medium">Golbal R&D Intelligent Hubs</div>
                       <div className="text-sm text-white/60">
                         | London | Dresden | Prague | Bogota | Boston | Seoul | Beijing |
                       </div>
@@ -220,18 +171,11 @@ export const ContactSection = () => {
               >
                 {isSubmitted ? (
                   <div className="text-center py-12">
-                    <CheckCircle className="w-16 h-16 text-primary mx-auto mb-4 animate-bounce" />
+                    <CheckCircle className="w-16 h-16 text-primary mx-auto mb-4" />
                     <h3 className="text-2xl font-display font-bold text-white mb-2">
                       Message Sent!
                     </h3>
-                    <p className="text-white/60 mb-6">We'll get back to you within 48 hours.</p>
-                    <button 
-                      type="button" 
-                      onClick={() => setIsSubmitted(false)}
-                      className="text-primary text-sm underline hover:text-white"
-                    >
-                      Send another message
-                    </button>
+                    <p className="text-white/60">We'll get back to you within 48 hours.</p>
                   </div>
                 ) : (
                   <>
@@ -240,10 +184,6 @@ export const ContactSection = () => {
                         <label className="block text-sm text-white/60 mb-2">First Name</label>
                         <input
                           type="text"
-                          name="firstName"
-                          value={formData.firstName}
-                          onChange={handleInputChange}
-                          required
                           className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:border-primary focus:outline-none transition-colors"
                           placeholder="John"
                           onFocus={() => setFocusedField('firstName')}
@@ -254,10 +194,6 @@ export const ContactSection = () => {
                         <label className="block text-sm text-white/60 mb-2">Last Name</label>
                         <input
                           type="text"
-                          name="lastName"
-                          value={formData.lastName}
-                          onChange={handleInputChange}
-                          required
                           className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:border-primary focus:outline-none transition-colors"
                           placeholder="Doe"
                           onFocus={() => setFocusedField('lastName')}
@@ -271,10 +207,6 @@ export const ContactSection = () => {
                         <label className="block text-sm text-white/60 mb-2">Email</label>
                         <input
                           type="email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleInputChange}
-                          required
                           className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:border-primary focus:outline-none transition-colors"
                           placeholder="john@company.com"
                           onFocus={() => setFocusedField('email')}
@@ -285,9 +217,6 @@ export const ContactSection = () => {
                         <label className="block text-sm text-white/60 mb-2">Company</label>
                         <input
                           type="text"
-                          name="company"
-                          value={formData.company}
-                          onChange={handleInputChange}
                           className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:border-primary focus:outline-none transition-colors"
                           placeholder="Your Company"
                           onFocus={() => setFocusedField('company')}
@@ -328,10 +257,6 @@ export const ContactSection = () => {
                       <label className="block text-sm text-white/60 mb-2">Message</label>
                       <textarea
                         rows={4}
-                        name="message"
-                        value={formData.message}
-                        onChange={handleInputChange}
-                        required
                         className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:border-primary focus:outline-none transition-colors resize-none"
                         placeholder="Tell us about your project..."
                         onFocus={() => setFocusedField('message')}
@@ -339,26 +264,12 @@ export const ContactSection = () => {
                       />
                     </div>
 
-                    {errorMessage && (
-                      <p className="text-red-500 text-sm mb-4">{errorMessage}</p>
-                    )}
-
                     <button
                       type="submit"
-                      disabled={isLoading}
-                      className="w-full btn-primary flex items-center justify-center gap-2 group disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="w-full btn-primary flex items-center justify-center gap-2 group"
                     >
-                      {isLoading ? (
-                        <>
-                          Sending...
-                          <Loader2 className="w-5 h-5 animate-spin" />
-                        </>
-                      ) : (
-                        <>
-                          Send Message
-                          <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                        </>
-                      )}
+                      Send Message
+                      <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </button>
                   </>
                 )}
