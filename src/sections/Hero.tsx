@@ -226,11 +226,13 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight">
             Manufacturing as a Service
             <br />
+            </h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-white mb-6 leading-tight">
+            <span className="text-gradient">Augmenting Human Intellect Ecosystems</span>
             <br />
-            <span className="text-gradient">Augmenting Human
-              Intellect Ecosystems</span>
+            <br />
           </h1>
-
+            <br />
           <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
             Powering the future of Electric Vehicles, Robotics, and Oil & Gas Industries with
             Co-Evolution of Human Systems & Tool Systems.
