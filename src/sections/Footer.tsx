@@ -21,7 +21,7 @@ const footerLinks = {
     { label: 'Partners', href: '#' },
   ],
   resources: [
-    { label: 'Documentation', href: '#' },
+    { label: 'Cowork Webpage', href: 'https://www.sharpley.ca/cowork.html', external: true },
     { label: 'Case Studies', href: '#' },
     { label: 'White Papers', href: '#' },
     { label: 'API Reference', href: '#' },
