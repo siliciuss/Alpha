@@ -85,7 +85,7 @@ const ContactSection = () => {
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
               Ready to revolutionize your manufacturing process? Let's discuss how our
-              R&D Intelligent Ecosystems with additive manufacturing solutions can help.
+              Cowork Collaboartion Ecosystems can help the manufacturing solutions.
             </p>
           </div>
 
@@ -102,9 +102,9 @@ const ContactSection = () => {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Calgary R&D Hub</div>
+                      <div className="text-white font-medium">Calgary Cowork Hub</div>
                       <div className="text-sm text-white/60">
-                        + Remote R&D Hub
+                        + Remote Cowork Hub
                         <br />
                         + Updating
                       </div>
@@ -126,7 +126,7 @@ const ContactSection = () => {
                       <Mail className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">R&D Hub e-mail</div>
+                      <div className="text-white font-medium">Cowork Hub e-mail</div>
                       <div className="text-sm text-white/60">+ Updating</div>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ const ContactSection = () => {
                       <Globe className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white font-medium">Golbal R&D Intelligent Hubs</div>
+                      <div className="text-white font-medium">Golbal Cowork Collaboration Ecosystem Hubs</div>
                       <div className="text-sm text-white/60">
                         | London | Dresden | Prague | Bogota | Boston | Seoul | Beijing |
                       </div>
