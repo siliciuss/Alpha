@@ -230,14 +230,14 @@ const Hero = () => {
             <br />
             </h1>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display mx-auto font-bold text-white mb-6 leading-tight">
-            <span className="text-gradient">Augmenting Human Intellect Ecosystems</span>
+            <span className="text-gradient">Cowork Collaboration Ecosystem</span>
             <br />
             <br />
           </h1>
             <br />
           <p className="text-xl text-white/70 max-w-2xl mx-auto mb-10">
             Powering the future of Electric Vehicles, Robotics, and Oil & Gas Industries with
-            Co-Evolution of Human Systems & Tool Systems.
+            Cowork Collaboration Ecosystem for Human Systems & Tool Systems.
           </p>
 
           {/* CTAs */}
