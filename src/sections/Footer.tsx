@@ -61,8 +61,8 @@ const Footer = () => {
                   </div>
                 </div>
                 <p className="text-sm text-white/60">
-                  Augmenting Human Intellect Ecosystems powered the future of Electric Vehicles, Robotics, and Oil & Gas Industries with
-                  Co-Evolution of Human Systems & Tool Systems.
+                  Empowering the future of Electric Vehicles, Robotics, and Oil & Gas Industries with
+                  Cowork Collaboration System for Human Systems & Tool Systems
                 </p>
               </div>
 
