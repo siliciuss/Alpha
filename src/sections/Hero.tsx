@@ -230,7 +230,7 @@ const Hero = () => {
             <br />
             </h1>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display mx-auto font-bold text-white mb-6 leading-tight">
-            <span className="text-gradient">Cowork Collaboration Ecosystem</span>
+            <span className="text-gradient">Cowork Collaboration Ecosystem <br>Meraki Project</span>
             <br />
             <br />
           </h1>
@@ -243,10 +243,10 @@ const Hero = () => {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto">
             <button className="btn-primary flex items-center justify-center gap-2 group">
-              Explore Solutions
+              Cowork Collaboartion
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="btn-outline">Schedule Demo</button>
+            <button className="btn-outline">Meraki Project</button>
           </div>
         </div>
       </div>
