@@ -21,7 +21,7 @@ const footerLinks = {
     { label: 'Partners', href: '#' },
   ],
   resources: [
-    { label: 'Documentation', href: '#" },
+    { label: 'Documentaation', href: '#' },
     { label: 'Case Studies', href: '#' },
     { label: 'White Papers', href: '#' },
     { label: 'API Reference', href: '#' },
