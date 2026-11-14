@@ -177,8 +177,6 @@ const Footer = () => {
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      target={link.external ? "_blank" : "_self"}
-                      rel={link.external ? "noopener noreferrer" : undefined}
                       className="text-sm text-white/60 hover:text-primary transition-colors flex items-center gap-1 group"
                     >
                       <ChevronRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
