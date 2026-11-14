@@ -88,6 +88,7 @@ const ContactSection = () => {
                 className="hover:opacity-95 transition-opacity"
               >
               <span className="text-gradient">Cowork Collaboration Ecosystem</span>
+              </a>
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
               Ready to revolutionize your manufacturing process? Let's discuss how our
