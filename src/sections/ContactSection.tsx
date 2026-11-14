@@ -87,8 +87,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer" 
                 className="hover:opacity-95 transition-opacity"
               >
-              <span className="text-gradient">Cowork Collaboration Ecosystem</span>
-              (Full Info "click")
+              <span className="text-gradient">Cowork Collaboration Ecosystem (clik here)</span>
               </a>
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
