@@ -81,6 +81,12 @@ const ContactSection = () => {
             </div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white mb-6">
               Start Your{' '}
+              <a 
+                href="https://www.silicius.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:opacity-95 transition-opacity"
+              >
               <span className="text-gradient">Cowork Collaboration Ecosystem</span>
             </h2>
             <p className="text-lg text-white/60 max-w-2xl mx-auto">
