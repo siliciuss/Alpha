@@ -64,7 +64,7 @@ const LogoEcosystem = () => {
               Trusted by <span className="text-gradient">Industry Leaders</span>
             </h2>
             <p className="text-industrial-light/60 max-w-2xl mx-auto">
-              Powering the digital transformation of the world's leading oil and gas
+              Powering the cowork collaboration ecosystems of the world's leading oil and gas
               companies
             </p>
           </div>
