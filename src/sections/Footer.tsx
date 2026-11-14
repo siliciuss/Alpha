@@ -21,7 +21,7 @@ const footerLinks = {
     { label: 'Partners', href: '#' },
   ],
   resources: [
-    { label: 'Meraki - Cowork Project', href: 'https://www.silicius.com', external: true },
+    { label: 'Documentation', href: '#" },
     { label: 'Case Studies', href: '#' },
     { label: 'White Papers', href: '#' },
     { label: 'API Reference', href: '#' },
