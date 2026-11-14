@@ -243,22 +243,15 @@ const Hero = () => {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto">
             <a 
-              href="https://www.silicius.com" 
+              href="https://www.sharpley.ca/cowork.html"
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn-primary flex items-center justify-center gap-2 group"
             >
-              Cowork Collaboration
+              Cowork-Meraki Ecosystem
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
-            <a 
-              href="https://www.sharpley.ca/cowork.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary flex items-center justify-center gap-2 group"
-            >
-              Cowork-Meraki Ecosystem
-            </a>
+            <button className="btn-outline">Schedule Demo</button>
           </div>
         </div>
       </div>
