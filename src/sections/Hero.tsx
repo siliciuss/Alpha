@@ -230,7 +230,7 @@ const Hero = () => {
             <br />
             </h1>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display mx-auto font-bold text-white mb-6 leading-tight">
-            <span className="text-gradient">Cowork Collaboration Ecosystem - Meraki Project</span>
+            <span className="text-gradient">Cowork Collaboration Ecosystem   Meraki Project</span>
             <br />
             <br />
           </h1>
@@ -251,7 +251,14 @@ const Hero = () => {
               Cowork Collaboration
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
-            <button className="btn-outline">Cowork-Meraki Project</button>
+            <a 
+              href="https://www.sharpley.ca/cowork.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary flex items-center justify-center gap-2 group"
+            >
+              Cowork-Meraki Project
+            </a>
           </div>
         </div>
       </div>
