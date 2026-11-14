@@ -257,7 +257,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="btn-primary flex items-center justify-center gap-2 group"
             >
-              Cowork-Meraki Project
+              Cowork-Meraki Ecosystem
             </a>
           </div>
         </div>
