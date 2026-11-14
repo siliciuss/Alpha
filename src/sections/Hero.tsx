@@ -243,10 +243,10 @@ const Hero = () => {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto">
             <button className="btn-primary flex items-center justify-center gap-2 group">
-              Cowork Collaboartion
+              Cowork Collaboration
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="btn-outline">Meraki Project</button>
+            <button className="btn-outline">Cowork-Meraki Project</button>
           </div>
         </div>
       </div>
